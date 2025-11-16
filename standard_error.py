@@ -8,7 +8,7 @@ def find_standard_errors(matrix):
     # Finds standard deviation for each row (uses n−1)
     standard_deviation = np.std(matrix, axis=1, ddof=1)
     
-    # Number of observations per row
+    # Number of values per row
     n = matrix.shape[1]
     
     # Standard error of the mean (SEM)
