@@ -1,3 +1,3 @@
 # standard-error-calculator
 
-This works
+Takes an NxM matrix of values, and calculates the standard error for every row N
