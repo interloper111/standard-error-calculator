@@ -2,9 +2,6 @@ import numpy as np
 
 def find_standard_errors(matrix):
     
-    # Ensures matrix is a numpy matrix 
-    matrix = np.asarray(matrix)
-    
     # Finds standard deviation for each row (uses n−1)
     standard_deviation = np.std(matrix, axis=1, ddof=1)
     
